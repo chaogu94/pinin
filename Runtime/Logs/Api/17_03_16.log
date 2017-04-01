@@ -1,0 +1,342 @@
+[ 2017-03-16T16:10:07+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019391s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.5363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033542s ]
+
+[ 2017-03-16T16:12:10+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish?uid=2&location=%E5%8C%97%E6%96%B9%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-03-16T16:13:48+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish?uid=2&location=%E5%8C%97%E6%96%B9%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-03-16T16:16:24+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'maqiang1' LIMIT 1   [ RunTime:0.0887s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('maqiang1','123456') [ RunTime:0.8648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-03-16T16:17:01+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'maqiang' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('maqiang','123456') [ RunTime:0.0702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-03-16T16:17:11+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'maqiang' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-03-16T16:18:48+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'maqia2ng' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('maqia2ng','123456') [ RunTime:0.1002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-03-16T16:19:50+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'ma1qia2ng' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('ma1qia2ng','123456') [ RunTime:0.1174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-03-16T16:20:18+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'ma1qia2n1g' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('ma1qia2n1g','123456') [ RunTime:0.0773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-03-16T16:20:37+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'ma1qia2n1g' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-03-16T16:20:42+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'ma1qia12n1g' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '1571222190' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`,`tel`) VALUES ('ma1qia12n1g','123456','1571222190') [ RunTime:0.0688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-03-16T16:20:49+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'ma11qia12n1g' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '1571222190' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-03-16T16:24:10+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2017-03-16T16:24:28+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-03-16T16:24:48+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`location`) VALUES ('1','哈哈')
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`location`) VALUES ('1','哈哈')
+
+[ 2017-03-16T16:26:57+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'content' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`location`) VALUES ('1','哈哈')
+ERR: 1364:Field 'content' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`location`) VALUES ('1','哈哈')
+
+[ 2017-03-16T16:27:29+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'ctime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`content`,`location`) VALUES ('1','f;adf','哈哈')
+ERR: 1364:Field 'ctime' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`content`,`location`) VALUES ('1','f;adf','哈哈')
+
+[ 2017-03-16T16:30:48+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0243s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`,`location`,`ctime`) VALUES ('1','f;adf','哈哈','1234') [ RunTime:0.0461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-03-16T16:31:18+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`,`location`,`ctime`) VALUES ('1','f;adf','哈哈','1234') [ RunTime:0.0701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2017-03-16T16:31:24+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-03-16T16:31:30+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish?uid=1&content=f;adf&location=%E5%93%88%E5%93%88&ctime=1234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-03-16T19:33:58+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.078062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027397s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0198s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'content' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`) VALUES ('2')
+ERR: 1364:Field 'content' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`) VALUES ('2')
+
+[ 2017-03-16T19:34:16+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`) VALUES ('2','2134536') [ RunTime:0.0721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010187s ]
+

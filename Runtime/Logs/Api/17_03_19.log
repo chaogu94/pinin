@@ -1,0 +1,656 @@
+[ 2017-03-19T14:21:27+08:00 ] 127.0.0.1 /index.php/Api/requirement/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009888s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.5659s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.1756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023293s ]
+
+[ 2017-03-19T14:23:40+08:00 ] 127.0.0.1 /index.php/Api/requirement/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-03-19T14:24:21+08:00 ] 127.0.0.1 /index.php/Api/requirement/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-03-19T14:33:07+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0457s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-03-19T14:33:13+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 2,2   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-03-19T14:33:52+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-03-19T14:35:38+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 10,10   [ RunTime:0.0008s ]
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-03-19T14:36:22+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-03-19T14:36:24+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-03-19T14:41:07+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.2957s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.1198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2017-03-19T14:43:44+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-03-19T14:44:28+08:00 ] 127.0.0.1 /index.php/Api/requirement/all?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-03-19T14:50:09+08:00 ] 127.0.0.1 /index.php/Api/requirement/myAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0366s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' AND `uid` = 0 LIMIT 1   [ RunTime:0.0212s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' AND `uid` = 0 LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-03-19T14:50:39+08:00 ] 127.0.0.1 /index.php/Api/requirement/myAll?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' AND `uid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' AND `uid` = 1 LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-03-19T14:50:47+08:00 ] 127.0.0.1 /index.php/Api/requirement/myAll?uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' AND `uid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' AND `uid` = 2 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-03-19T14:58:35+08:00 ] 127.0.0.1 /index.php/Api/requirement/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-03-19T14:58:44+08:00 ] 127.0.0.1 /index.php/Api/requirement/del?rid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0074s ]
+SQL: DELETE FROM `requirement` WHERE `id` = 10 [ RunTime:0.1138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2017-03-19T14:58:53+08:00 ] 127.0.0.1 /index.php/Api/requirement/del?rid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0067s ]
+SQL: DELETE FROM `requirement` WHERE `id` = 5 [ RunTime:0.1392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2017-03-19T15:06:03+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0535s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-03-19T15:06:34+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0707s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: result E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-03-19T15:07:04+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: result E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-03-19T15:07:53+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: result E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-03-19T15:11:23+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0666s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'content' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`) VALUES ('3')
+ERR: 1364:Field 'content' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`) VALUES ('3')
+
+[ 2017-03-19T15:11:37+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '7' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`content`) VALUES ('3','s;lfjsa')
+ERR: 1062:Duplicate entry '7' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `requirement` (`uid`,`content`) VALUES ('3','s;lfjsa')
+
+[ 2017-03-19T15:13:41+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`) VALUES ('3','s;lfjsa') [ RunTime:0.0888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-03-19T15:21:23+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0789s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0274s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`) VALUES ('3','s;lfjsa') [ RunTime:0.4871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2017-03-19T15:22:14+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0662s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'uid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`content`) VALUES ('s;lfjsa')
+ERR: 1364:Field 'uid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`content`) VALUES ('s;lfjsa')
+
+[ 2017-03-19T15:22:37+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0501s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: result E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-03-19T15:22:40+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0088s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: result E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 73 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-03-19T15:25:32+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2017-03-19T15:26:28+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-03-19T15:26:46+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-03-19T15:26:49+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-03-19T15:27:01+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-03-19T15:27:29+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-03-19T15:27:30+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-03-19T15:28:10+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-03-19T15:28:28+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'uid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`content`) VALUES ('124')
+ERR: 1364:Field 'uid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `requirement` (`content`) VALUES ('124')
+
+[ 2017-03-19T15:28:43+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`) VALUES ('2','124') [ RunTime:0.0812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-03-19T15:29:20+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: result E:\wamp\www\pinin\Application\Api\Controller\RequirementController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-03-19T15:35:53+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0063s ]
+SQL: UPDATE `requirement` SET `src`='728935709157',`content`='1247777' [ RunTime:0.0877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-03-19T15:37:23+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0070s ]
+SQL: UPDATE `requirement` SET `src`='hahaha',`content`='heihei124214' WHERE ( 2 ) [ RunTime:0.1706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-03-19T15:38:38+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0081s ]
+SQL: UPDATE `requirement` SET `src`='haha1111111ha',`content`='1111heihei124214' WHERE ( id=2 ) [ RunTime:0.0775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-03-19T15:39:18+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0084s ]
+SQL: UPDATE `requirement` SET `src`='haha1111111ha',`content`='1111heihei124214' WHERE ( id=2 ) [ RunTime:0.0877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-03-19T15:39:48+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0055s ]
+SQL: UPDATE `requirement` SET `src`='',`content`='11' WHERE ( id=2 ) [ RunTime:0.1671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002123s ]
+

@@ -1,0 +1,96 @@
+[ 2017-03-21T20:44:20+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020114s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0651s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0255s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`) VALUES ('2','2134536') [ RunTime:0.1022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038511s ]
+
+[ 2017-03-21T20:48:14+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0466s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`) VALUES ('2','2134536') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2017-03-21T20:48:38+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`,`online`) VALUES ('2','2134536','2') [ RunTime:0.6351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002514s ]
+
+[ 2017-03-21T20:49:04+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0445s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`,`online`) VALUES ('2','2134536','1') [ RunTime:0.0704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002107s ]
+
+[ 2017-03-21T20:50:50+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`uid`,`content`,`online`) VALUES ('2','2134536','0') [ RunTime:0.0966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2017-03-21T20:51:40+08:00 ] 127.0.0.1 /index.php/Api/requirement/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `requirement` (`id`,`uid`,`content`,`online`) VALUES ('9','2','2134536','0') [ RunTime:0.0685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+

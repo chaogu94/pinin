@@ -1,0 +1,67 @@
+[ 2017-03-14T20:24:57+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013299s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0977s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '10' LIMIT 1   [ RunTime:0.0846s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '10' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`tel`,`password`) VALUES ('10','10','10') [ RunTime:0.0863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011248s ]
+
+[ 2017-03-14T20:26:45+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '10' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-03-14T20:26:56+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '100' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '10' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-03-14T20:27:03+08:00 ] 127.0.0.1 /index.php/Api/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '100' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `tel` = '100' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`tel`,`password`) VALUES ('100','100','10') [ RunTime:0.0875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+

@@ -1,0 +1,81 @@
+[ 2017-03-29T10:28:27+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007271s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.2837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009373s ]
+
+[ 2017-03-29T10:28:30+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-03-29T10:28:35+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0173s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `requirement` SET `uid`='2',`content`='qqqqqqq' WHERE `id` = 22 [ RunTime:0.0984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003224s ]
+
+[ 2017-03-29T10:30:11+08:00 ] 127.0.0.1 /index.php/Api/requirement/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0202s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\pinin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `requirement` SET `uid`='2',`content`='qqqqqqq' WHERE `id` = 22 [ RunTime:0.0572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002300s ]
+
+[ 2017-03-29T10:30:18+08:00 ] 127.0.0.1 /index.php/Api/requirement/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0638s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.0200s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=1 )  [ RunTime:0.0020s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=2 )  [ RunTime:0.0015s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=3 )  [ RunTime:0.0011s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=4 )  [ RunTime:0.0011s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=7 )  [ RunTime:0.0016s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=20 )  [ RunTime:0.0014s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=21 )  [ RunTime:0.0011s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=22 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002169s ]
+

@@ -1,0 +1,25 @@
+[ 2017-03-31T10:06:44+08:00 ] 127.0.0.1 /index.php/Api/requirement/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.079282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024027s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.3519s ]
+SQL: SHOW COLUMNS FROM `requirement` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `requirement` WHERE `content` LIKE '%%' LIMIT 1   [ RunTime:0.0671s ]
+SQL: SELECT * FROM `requirement` WHERE `content` LIKE '%%' LIMIT 0,10   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.0810s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=1 )  [ RunTime:0.0025s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=2 )  [ RunTime:0.0021s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=3 )  [ RunTime:0.0023s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=4 )  [ RunTime:0.0017s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=6 )  [ RunTime:0.0015s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=7 )  [ RunTime:0.0029s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=20 )  [ RunTime:0.0021s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=21 )  [ RunTime:0.0015s ]
+SQL: SELECT `src` FROM `pics` WHERE ( rid=22 )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016388s ]
+
